@@ -1,9 +1,15 @@
+import { List } from "@components/List/List"
 
-function App() {
+const App = () => {
 
   return (
-    <div>
-    </div>
+    <>
+      <List>
+        <List.Item>
+          <></>
+        </List.Item>
+      </List>
+    </>
   )
 }
 
